@@ -1,0 +1,30 @@
+{
+  "todos": [],
+  "habits": [
+    "Minum 8 gelas air",
+    "Olahraga 15 menit",
+    "Membaca buku 20 halaman",
+    "Meditasi 10 menit",
+    "Menulis jurnal",
+    "Stretching pagi",
+    "Belajar hal baru 30 menit",
+    "Telepon teman/keluarga",
+    "Bersih-bersih ruangan",
+    "Tidur sebelum jam 11"
+  ],
+  "daily_habits": [
+    {
+      "text": "Belajar hal baru 30 menit",
+      "completed": false
+    },
+    {
+      "text": "Membaca buku 20 halaman",
+      "completed": false
+    },
+    {
+      "text": "Tidur sebelum jam 11",
+      "completed": false
+    }
+  ],
+  "last_date": "2025-11-18"
+}
