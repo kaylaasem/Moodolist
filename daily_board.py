@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class DailyBoard:
     """Kelas untuk menggabungkan To-Do List dan Habit Generator"""
     
@@ -62,6 +62,3 @@ class DailyBoard:
             'todos': todos,
             'habits': habits
         }
-=======
-
->>>>>>> 73ac373a314c29a22486b1f7d10ec8036ffd5f5d
