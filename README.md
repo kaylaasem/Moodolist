@@ -81,3 +81,7 @@ Flowchart:
                                        ┌────────────────────────┐
                                        │    Tampilkan Output    │
                                        └────────────────────────┘
+
+Program dimulai dengan memeriksa apakah file data sudah ada. Jika belum, program membuat file baru dan mengisi daftar habit awal. Setelah itu, program mengecek apakah hari telah berganti untuk menentukan apakah perlu menghasilkan 1–3 habit acak untuk hari tersebut.
+
+Selanjutnya, program menampilkan menu utama kepada pengguna. Pengguna memilih aksi seperti menambah tugas, mengedit, menghapus, melihat daftar, atau mengelola habit. Setiap pilihan diproses dan program kembali ke menu utama. Ketika pengguna memilih keluar, program menyimpan seluruh perubahan ke file moodolist_data.json, lalu program berhenti.
