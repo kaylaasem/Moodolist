@@ -27,4 +27,18 @@ Fitur Utama:
 Panduan Instalasi:
 Bagian Panduan Instalasi bertujuan memberi arahan kepada pengguna mengenai langkah awal sebelum menjalankan aplikasi Moodolist. Langkah pertama adalah mengunduh proyek dari GitHub dengan perintah git clone, yang akan menyalin seluruh isi repositori ke komputer. Setelah itu, pengguna perlu masuk ke folder hasil clone menggunakan cd Moodolist , karena seluruh berkas program berada di dalam folder tersebut dan semua perintah berikutnya harus dijalankan dari sana.
 
-Pengguna juga dapat membuat virtual environment untuk memisahkan dependensi proyek dari instalasi Python utama, sehingga pengembangan lebih teratur dan profesional. Walaupun tidak wajib, langkah ini tetap dianjurkan dalam praktik pemrograman. Setelah environment aktif, biasanya dibutuhkan instalasi library tambahan, namun Moodolist hanya menggunakan modul bawaan Python sehingga tidak ada paket lain yang perlu dipasang. Jika semua langkah persiapan sudah dilakukan, aplikasi bisa dijalankan dengan perintah python main.py .
+Pengguna juga dapat membuat virtual environment untuk memisahkan dependensi proyek dari instalasi Python utama, sehingga pengembangan lebih teratur dan profesional. Walaupun tidak wajib, langkah ini tetap dianjurkan dalam praktik pemrograman. Setelah environment aktif, biasanya dibutuhkan instalasi library tambahan, namun Moodolist hanya menggunakan modul bawaan Python sehingga tidak ada paket lain yang perlu dipasang. Jika semua langkah persiapan sudah dilakukan, aplikasi bisa dijalankan dengan perintah python main.py.
+
+Panduan Menjaankan:
+Jalankan aplikasi melalui file main.py:
+python main.py
+
+Setelah itu akan muncul menu interaktif sebagai berikut:
+1. Tambah To-Do
+2. Lihat Semua Task
+3. Toggle Task (Selesai/Belum)
+4. Generate Daily Habits
+5. Lihat Ringkasan
+6. Hapus To-Do
+7. Edit To-Do
+0. Keluar
