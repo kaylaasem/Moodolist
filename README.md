@@ -20,10 +20,6 @@ Fitur Utama:
 - Habit memiliki ID unik (dimulai dari 1000)
 🔹 Daily Board (Gabungan To-Do + Habit)
 - Menampilkan semua task harian
--Menghitung progress harian (%)
-
-
-
-Mengelompokkan task berdasarkan kategori
-
-Menampilkan ringkasan produktivitas
+- Menghitung progress harian (%)
+- Mengelompokkan task berdasarkan kategori
+- Menampilkan ringkasan produktivitas
