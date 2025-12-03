@@ -92,10 +92,9 @@ Selanjutnya, program menampilkan menu utama kepada pengguna. Pengguna memilih ak
 
 
  Daftar Kontributor
-────────────────────────────────────────────────────────────────────────────────────────
+ 
 | Nama Lengkap                      | NIM            | Link Akun GitHub                |
 |-----------------------------------|----------------|---------------------------------|
 | Kayla Sriulina Sembiring          | 250211060005   | https://github.com/kaylaasem    |
 | Stacia Gracia Pangemanan          | 250211060012   | https://github.com/staciagracia |
 | Brinnete Euanggelion Sunkudon     | 250211060019   | https://github.com/alteredbrinn |
-────────────────────────────────────────────────────────────────────────────────────────
