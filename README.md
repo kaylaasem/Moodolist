@@ -29,7 +29,7 @@ Bagian Panduan Instalasi bertujuan memberi arahan kepada pengguna mengenai langk
 
 Pengguna juga dapat membuat virtual environment untuk memisahkan dependensi proyek dari instalasi Python utama, sehingga pengembangan lebih teratur dan profesional. Walaupun tidak wajib, langkah ini tetap dianjurkan dalam praktik pemrograman. Setelah environment aktif, biasanya dibutuhkan instalasi library tambahan, namun Moodolist hanya menggunakan modul bawaan Python sehingga tidak ada paket lain yang perlu dipasang. Jika semua langkah persiapan sudah dilakukan, aplikasi bisa dijalankan dengan perintah python main.py.
 
-Panduan Menjaankan:
+Panduan Menjalankan:
 Jalankan aplikasi melalui file main.py:
 python main.py
 
@@ -42,3 +42,42 @@ Setelah itu akan muncul menu interaktif sebagai berikut:
 6. Hapus To-Do
 7. Edit To-Do
 0. Keluar
+
+Flowchart:
+      ┌──────────────────────────┐
+      │         main.py          │
+      └─────────────┬────────────┘
+                    │
+                    ▼
+          ┌───────────────────┐
+          │  Tampilkan Menu   │
+          └─────────┬─────────┘
+                    │
+ ┌──────────────────┼──────────────────────────────────────────────────┐
+ │                  │                                                  │
+ ▼                  ▼                                                  ▼
+┌────────┐  ┌────────────────┐                                ┌───────────────────┐
+│ Tambah │  │ Generate Habit │                                │  Toggle Status    │
+│ To-Do  │  └───────┬────────┘                                └─────────┬─────────┘
+└─────┬──┘          │                                            ┌──────┘
+      │             ▼                                            ▼
+      │     ┌───────────────┐                         ┌────────────────────┐
+      │     │ HabitGenerator│                         │     DailyBoard     │
+      │     └───────┬───────┘                         └──────────┬─────────┘
+      │             │                                            │
+      ▼             │                                            │
+┌──────────────┐    │                                            │
+│  TodoList.py │    │                                            │
+└──────┬───────┘    │                                            │
+       │            │                                            │
+       └────────────┴───────────────────────────────┬────────────┘
+                                                    ▼
+                                       ┌────────────────────────┐
+                                       │     Lihat Summary      │
+                                       │      (DailyBoard)      │
+                                       └───────────┬────────────┘
+                                                   │
+                                                   ▼
+                                       ┌────────────────────────┐
+                                       │    Tampilkan Output    │
+                                       └────────────────────────┘
