@@ -21,10 +21,10 @@ Fitur Utama:
 🔹 Daily Board (Gabungan To-Do + Habit)
 - Menampilkan semua task harian
 - Menghitung progress harian (%)
+- Mengelompokkan task berdasarkan kategori
+- Menampilkan ringkasan produktivitas
 
-Panduan Menjalankan:
+Panduan Instalasi:
 Bagian Panduan Instalasi bertujuan memberi arahan kepada pengguna mengenai langkah awal sebelum menjalankan aplikasi Moodolist. Langkah pertama adalah mengunduh proyek dari GitHub dengan perintah git clone, yang akan menyalin seluruh isi repositori ke komputer. Setelah itu, pengguna perlu masuk ke folder hasil clone menggunakan cd Moodolist , karena seluruh berkas program berada di dalam folder tersebut dan semua perintah berikutnya harus dijalankan dari sana.
 
 Pengguna juga dapat membuat virtual environment untuk memisahkan dependensi proyek dari instalasi Python utama, sehingga pengembangan lebih teratur dan profesional. Walaupun tidak wajib, langkah ini tetap dianjurkan dalam praktik pemrograman. Setelah environment aktif, biasanya dibutuhkan instalasi library tambahan, namun Moodolist hanya menggunakan modul bawaan Python sehingga tidak ada paket lain yang perlu dipasang. Jika semua langkah persiapan sudah dilakukan, aplikasi bisa dijalankan dengan perintah python main.py .
-- Mengelompokkan task berdasarkan kategori
-- Menampilkan ringkasan produktivitas
