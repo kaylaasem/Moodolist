@@ -50,7 +50,8 @@ Setelah itu akan muncul menu interaktif sebagai berikut:
 
 Dokumentasi Teknis:
 Flowchart:
-
+'''mermaid
+flowchart TD
     A[Mulai Program] --> B{File Data Ada?}
     B -- Tidak --> C[Buat File moodolist_data.json]
     B -- Ya --> D[Muat Data]
@@ -73,6 +74,7 @@ Flowchart:
     K --> M[Simpan Data]
     M --> E
     L --> N[Simpan Lalu Keluar]
+'''
 
 
 Program dimulai dengan memeriksa apakah file data sudah ada. Jika belum, program membuat file baru dan mengisi daftar habit awal. Setelah itu, program mengecek apakah hari telah berganti untuk menentukan apakah perlu menghasilkan 1–3 habit acak untuk hari tersebut.
